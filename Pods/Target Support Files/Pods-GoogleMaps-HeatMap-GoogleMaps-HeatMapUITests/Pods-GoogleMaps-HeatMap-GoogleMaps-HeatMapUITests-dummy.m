@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_GoogleMaps_HeatMap_GoogleMaps_HeatMapUITests : NSObject
+@end
+@implementation PodsDummy_Pods_GoogleMaps_HeatMap_GoogleMaps_HeatMapUITests
+@end

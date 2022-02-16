@@ -1,0 +1,6 @@
+framework module Pods_GoogleMaps_HeatMap {
+  umbrella header "Pods-GoogleMaps-HeatMap-umbrella.h"
+
+  export *
+  module * { export * }
+}

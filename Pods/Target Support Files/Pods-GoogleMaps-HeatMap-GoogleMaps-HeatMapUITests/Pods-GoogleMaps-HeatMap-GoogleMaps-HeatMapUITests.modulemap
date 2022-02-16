@@ -1,0 +1,6 @@
+framework module Pods_GoogleMaps_HeatMap_GoogleMaps_HeatMapUITests {
+  umbrella header "Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

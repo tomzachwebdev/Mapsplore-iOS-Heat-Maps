@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84466FD6B4B6B805185A473C /* Pods_GoogleMaps_HeatMap_GoogleMaps_HeatMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9A67BA926FE369D9131A3C /* Pods_GoogleMaps_HeatMap_GoogleMaps_HeatMapUITests.framework */; };
+		8E0F436E24B510F50029B14E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0F436D24B510F50029B14E /* AppDelegate.swift */; };
+		8E0F437024B510F50029B14E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0F436F24B510F50029B14E /* SceneDelegate.swift */; };
+		8E0F437224B510F50029B14E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0F437124B510F50029B14E /* ViewController.swift */; };
+		8E0F437524B510F50029B14E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E0F437324B510F50029B14E /* Main.storyboard */; };
+		8E0F437724B510F60029B14E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E0F437624B510F60029B14E /* Assets.xcassets */; };
+		8E0F437A24B510F60029B14E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E0F437824B510F60029B14E /* LaunchScreen.storyboard */; };
+		8E0F438524B510F60029B14E /* GoogleMaps_HeatMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0F438424B510F60029B14E /* GoogleMaps_HeatMapTests.swift */; };
+		8E0F439024B510F60029B14E /* GoogleMaps_HeatMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0F438F24B510F60029B14E /* GoogleMaps_HeatMapUITests.swift */; };
+		97F0672AAAF960DCE7295D3E /* Pods_GoogleMaps_HeatMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DE9479F2ECD0D0B26C2942 /* Pods_GoogleMaps_HeatMap.framework */; };
+		CA528ECD0366C44FC846DA68 /* Pods_GoogleMaps_HeatMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3548C12819045EE9775B3A2 /* Pods_GoogleMaps_HeatMapTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E0F438124B510F60029B14E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E0F436224B510F50029B14E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E0F436924B510F50029B14E;
+			remoteInfo = "GoogleMaps-HeatMap";
+		};
+		8E0F438C24B510F60029B14E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E0F436224B510F50029B14E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E0F436924B510F50029B14E;
+			remoteInfo = "GoogleMaps-HeatMap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B1008D375CFB9572A60F275 /* Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests/Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B9A67BA926FE369D9131A3C /* Pods_GoogleMaps_HeatMap_GoogleMaps_HeatMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMaps_HeatMap_GoogleMaps_HeatMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		431DCFDE0BED6C7020FFFC4D /* Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests.release.xcconfig"; path = "Target Support Files/Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests/Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C6A2C78AAF2B019828DCF57 /* Pods-GoogleMaps-HeatMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMaps-HeatMap.release.xcconfig"; path = "Target Support Files/Pods-GoogleMaps-HeatMap/Pods-GoogleMaps-HeatMap.release.xcconfig"; sourceTree = "<group>"; };
+		88DE9479F2ECD0D0B26C2942 /* Pods_GoogleMaps_HeatMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMaps_HeatMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0F436A24B510F50029B14E /* GoogleMaps-HeatMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoogleMaps-HeatMap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0F436D24B510F50029B14E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E0F436F24B510F50029B14E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E0F437124B510F50029B14E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E0F437424B510F50029B14E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E0F437624B510F60029B14E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E0F437924B510F60029B14E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E0F437B24B510F60029B14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E0F438024B510F60029B14E /* GoogleMaps-HeatMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoogleMaps-HeatMapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0F438424B510F60029B14E /* GoogleMaps_HeatMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMaps_HeatMapTests.swift; sourceTree = "<group>"; };
+		8E0F438624B510F60029B14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E0F438B24B510F60029B14E /* GoogleMaps-HeatMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoogleMaps-HeatMapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0F438F24B510F60029B14E /* GoogleMaps_HeatMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMaps_HeatMapUITests.swift; sourceTree = "<group>"; };
+		8E0F439124B510F60029B14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83C93D0CFAD0F527F0EC4AE /* Pods-GoogleMaps-HeatMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMaps-HeatMapTests.release.xcconfig"; path = "Target Support Files/Pods-GoogleMaps-HeatMapTests/Pods-GoogleMaps-HeatMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3548C12819045EE9775B3A2 /* Pods_GoogleMaps_HeatMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMaps_HeatMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E99F1CC7253446C89AAA00 /* Pods-GoogleMaps-HeatMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMaps-HeatMapTests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMaps-HeatMapTests/Pods-GoogleMaps-HeatMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEB3AC0A7EA636A7832A53F3 /* Pods-GoogleMaps-HeatMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMaps-HeatMap.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMaps-HeatMap/Pods-GoogleMaps-HeatMap.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E0F436724B510F50029B14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F0672AAAF960DCE7295D3E /* Pods_GoogleMaps_HeatMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0F437D24B510F60029B14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA528ECD0366C44FC846DA68 /* Pods_GoogleMaps_HeatMapTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0F438824B510F60029B14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84466FD6B4B6B805185A473C /* Pods_GoogleMaps_HeatMap_GoogleMaps_HeatMapUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05267ADD79A46B8E3EA53778 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEB3AC0A7EA636A7832A53F3 /* Pods-GoogleMaps-HeatMap.debug.xcconfig */,
+				7C6A2C78AAF2B019828DCF57 /* Pods-GoogleMaps-HeatMap.release.xcconfig */,
+				1B1008D375CFB9572A60F275 /* Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests.debug.xcconfig */,
+				431DCFDE0BED6C7020FFFC4D /* Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests.release.xcconfig */,
+				B4E99F1CC7253446C89AAA00 /* Pods-GoogleMaps-HeatMapTests.debug.xcconfig */,
+				A83C93D0CFAD0F527F0EC4AE /* Pods-GoogleMaps-HeatMapTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E0F436124B510F50029B14E = {
+			isa = PBXGroup;
+			children = (
+				8E0F436C24B510F50029B14E /* GoogleMaps-HeatMap */,
+				8E0F438324B510F60029B14E /* GoogleMaps-HeatMapTests */,
+				8E0F438E24B510F60029B14E /* GoogleMaps-HeatMapUITests */,
+				8E0F436B24B510F50029B14E /* Products */,
+				05267ADD79A46B8E3EA53778 /* Pods */,
+				CDA5FB42ECB3133BE4F533E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E0F436B24B510F50029B14E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E0F436A24B510F50029B14E /* GoogleMaps-HeatMap.app */,
+				8E0F438024B510F60029B14E /* GoogleMaps-HeatMapTests.xctest */,
+				8E0F438B24B510F60029B14E /* GoogleMaps-HeatMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E0F436C24B510F50029B14E /* GoogleMaps-HeatMap */ = {
+			isa = PBXGroup;
+			children = (
+				8E0F436D24B510F50029B14E /* AppDelegate.swift */,
+				8E0F436F24B510F50029B14E /* SceneDelegate.swift */,
+				8E0F437124B510F50029B14E /* ViewController.swift */,
+				8E0F437324B510F50029B14E /* Main.storyboard */,
+				8E0F437624B510F60029B14E /* Assets.xcassets */,
+				8E0F437824B510F60029B14E /* LaunchScreen.storyboard */,
+				8E0F437B24B510F60029B14E /* Info.plist */,
+			);
+			path = "GoogleMaps-HeatMap";
+			sourceTree = "<group>";
+		};
+		8E0F438324B510F60029B14E /* GoogleMaps-HeatMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E0F438424B510F60029B14E /* GoogleMaps_HeatMapTests.swift */,
+				8E0F438624B510F60029B14E /* Info.plist */,
+			);
+			path = "GoogleMaps-HeatMapTests";
+			sourceTree = "<group>";
+		};
+		8E0F438E24B510F60029B14E /* GoogleMaps-HeatMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E0F438F24B510F60029B14E /* GoogleMaps_HeatMapUITests.swift */,
+				8E0F439124B510F60029B14E /* Info.plist */,
+			);
+			path = "GoogleMaps-HeatMapUITests";
+			sourceTree = "<group>";
+		};
+		CDA5FB42ECB3133BE4F533E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88DE9479F2ECD0D0B26C2942 /* Pods_GoogleMaps_HeatMap.framework */,
+				2B9A67BA926FE369D9131A3C /* Pods_GoogleMaps_HeatMap_GoogleMaps_HeatMapUITests.framework */,
+				B3548C12819045EE9775B3A2 /* Pods_GoogleMaps_HeatMapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E0F436924B510F50029B14E /* GoogleMaps-HeatMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0F439424B510F60029B14E /* Build configuration list for PBXNativeTarget "GoogleMaps-HeatMap" */;
+			buildPhases = (
+				2685F67468C9B78E4FA54F19 /* [CP] Check Pods Manifest.lock */,
+				8E0F436624B510F50029B14E /* Sources */,
+				8E0F436724B510F50029B14E /* Frameworks */,
+				8E0F436824B510F50029B14E /* Resources */,
+				479F7651C38EF2EB959588CB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoogleMaps-HeatMap";
+			productName = "GoogleMaps-HeatMap";
+			productReference = 8E0F436A24B510F50029B14E /* GoogleMaps-HeatMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E0F437F24B510F60029B14E /* GoogleMaps-HeatMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0F439724B510F60029B14E /* Build configuration list for PBXNativeTarget "GoogleMaps-HeatMapTests" */;
+			buildPhases = (
+				1E8645664C7EC73F9FDAF7A6 /* [CP] Check Pods Manifest.lock */,
+				8E0F437C24B510F60029B14E /* Sources */,
+				8E0F437D24B510F60029B14E /* Frameworks */,
+				8E0F437E24B510F60029B14E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E0F438224B510F60029B14E /* PBXTargetDependency */,
+			);
+			name = "GoogleMaps-HeatMapTests";
+			productName = "GoogleMaps-HeatMapTests";
+			productReference = 8E0F438024B510F60029B14E /* GoogleMaps-HeatMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E0F438A24B510F60029B14E /* GoogleMaps-HeatMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0F439A24B510F60029B14E /* Build configuration list for PBXNativeTarget "GoogleMaps-HeatMapUITests" */;
+			buildPhases = (
+				DABC97215804F11F8F10A3A4 /* [CP] Check Pods Manifest.lock */,
+				8E0F438724B510F60029B14E /* Sources */,
+				8E0F438824B510F60029B14E /* Frameworks */,
+				8E0F438924B510F60029B14E /* Resources */,
+				A5FDC42FA7AA6955BA7D45EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E0F438D24B510F60029B14E /* PBXTargetDependency */,
+			);
+			name = "GoogleMaps-HeatMapUITests";
+			productName = "GoogleMaps-HeatMapUITests";
+			productReference = 8E0F438B24B510F60029B14E /* GoogleMaps-HeatMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E0F436224B510F50029B14E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = 123456;
+				TargetAttributes = {
+					8E0F436924B510F50029B14E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					8E0F437F24B510F60029B14E = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8E0F436924B510F50029B14E;
+					};
+					8E0F438A24B510F60029B14E = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8E0F436924B510F50029B14E;
+					};
+				};
+			};
+			buildConfigurationList = 8E0F436524B510F50029B14E /* Build configuration list for PBXProject "GoogleMaps-HeatMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E0F436124B510F50029B14E;
+			productRefGroup = 8E0F436B24B510F50029B14E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E0F436924B510F50029B14E /* GoogleMaps-HeatMap */,
+				8E0F437F24B510F60029B14E /* GoogleMaps-HeatMapTests */,
+				8E0F438A24B510F60029B14E /* GoogleMaps-HeatMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E0F436824B510F50029B14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0F437A24B510F60029B14E /* LaunchScreen.storyboard in Resources */,
+				8E0F437724B510F60029B14E /* Assets.xcassets in Resources */,
+				8E0F437524B510F50029B14E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0F437E24B510F60029B14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0F438924B510F60029B14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E8645664C7EC73F9FDAF7A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMaps-HeatMapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2685F67468C9B78E4FA54F19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMaps-HeatMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		479F7651C38EF2EB959588CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMaps-HeatMap/Pods-GoogleMaps-HeatMap-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMaps-HeatMap/Pods-GoogleMaps-HeatMap-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMaps-HeatMap/Pods-GoogleMaps-HeatMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5FDC42FA7AA6955BA7D45EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests/Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests/Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests/Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DABC97215804F11F8F10A3A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E0F436624B510F50029B14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0F437224B510F50029B14E /* ViewController.swift in Sources */,
+				8E0F436E24B510F50029B14E /* AppDelegate.swift in Sources */,
+				8E0F437024B510F50029B14E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0F437C24B510F60029B14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0F438524B510F60029B14E /* GoogleMaps_HeatMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0F438724B510F60029B14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0F439024B510F60029B14E /* GoogleMaps_HeatMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E0F438224B510F60029B14E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E0F436924B510F50029B14E /* GoogleMaps-HeatMap */;
+			targetProxy = 8E0F438124B510F60029B14E /* PBXContainerItemProxy */;
+		};
+		8E0F438D24B510F60029B14E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E0F436924B510F50029B14E /* GoogleMaps-HeatMap */;
+			targetProxy = 8E0F438C24B510F60029B14E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E0F437324B510F50029B14E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0F437424B510F50029B14E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E0F437824B510F60029B14E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0F437924B510F60029B14E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E0F439224B510F60029B14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E0F439324B510F60029B14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E0F439524B510F60029B14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB3AC0A7EA636A7832A53F3 /* Pods-GoogleMaps-HeatMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRB555XZQ2;
+				INFOPLIST_FILE = "GoogleMaps-HeatMap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TomZach.GoogleMaps-HeatMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E0F439624B510F60029B14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6A2C78AAF2B019828DCF57 /* Pods-GoogleMaps-HeatMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRB555XZQ2;
+				INFOPLIST_FILE = "GoogleMaps-HeatMap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TomZach.GoogleMaps-HeatMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E0F439824B510F60029B14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E99F1CC7253446C89AAA00 /* Pods-GoogleMaps-HeatMapTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRB555XZQ2;
+				INFOPLIST_FILE = "GoogleMaps-HeatMapTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TomZach.GoogleMaps-HeatMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleMaps-HeatMap.app/GoogleMaps-HeatMap";
+			};
+			name = Debug;
+		};
+		8E0F439924B510F60029B14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A83C93D0CFAD0F527F0EC4AE /* Pods-GoogleMaps-HeatMapTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRB555XZQ2;
+				INFOPLIST_FILE = "GoogleMaps-HeatMapTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TomZach.GoogleMaps-HeatMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleMaps-HeatMap.app/GoogleMaps-HeatMap";
+			};
+			name = Release;
+		};
+		8E0F439B24B510F60029B14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B1008D375CFB9572A60F275 /* Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRB555XZQ2;
+				INFOPLIST_FILE = "GoogleMaps-HeatMapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TomZach.GoogleMaps-HeatMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GoogleMaps-HeatMap";
+			};
+			name = Debug;
+		};
+		8E0F439C24B510F60029B14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431DCFDE0BED6C7020FFFC4D /* Pods-GoogleMaps-HeatMap-GoogleMaps-HeatMapUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRB555XZQ2;
+				INFOPLIST_FILE = "GoogleMaps-HeatMapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TomZach.GoogleMaps-HeatMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GoogleMaps-HeatMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E0F436524B510F50029B14E /* Build configuration list for PBXProject "GoogleMaps-HeatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0F439224B510F60029B14E /* Debug */,
+				8E0F439324B510F60029B14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0F439424B510F60029B14E /* Build configuration list for PBXNativeTarget "GoogleMaps-HeatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0F439524B510F60029B14E /* Debug */,
+				8E0F439624B510F60029B14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0F439724B510F60029B14E /* Build configuration list for PBXNativeTarget "GoogleMaps-HeatMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0F439824B510F60029B14E /* Debug */,
+				8E0F439924B510F60029B14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0F439A24B510F60029B14E /* Build configuration list for PBXNativeTarget "GoogleMaps-HeatMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0F439B24B510F60029B14E /* Debug */,
+				8E0F439C24B510F60029B14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E0F436224B510F50029B14E /* Project object */;
+}
